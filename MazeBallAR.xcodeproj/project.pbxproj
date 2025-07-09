@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D85EE5AD2E1E3D4A0091A410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85EE5942E1E3D490091A410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85EE59B2E1E3D490091A410;
+			remoteInfo = MazeBallAR;
+		};
+		D85EE5B72E1E3D4A0091A410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85EE5942E1E3D490091A410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85EE59B2E1E3D490091A410;
+			remoteInfo = MazeBallAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D85EE59C2E1E3D490091A410 /* MazeBallAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeBallAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85EE5AC2E1E3D4A0091A410 /* MazeBallARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeBallARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85EE5B62E1E3D4A0091A410 /* MazeBallARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeBallARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D85EE59E2E1E3D490091A410 /* MazeBallAR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MazeBallAR;
+			sourceTree = "<group>";
+		};
+		D85EE5AF2E1E3D4A0091A410 /* MazeBallARTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MazeBallARTests;
+			sourceTree = "<group>";
+		};
+		D85EE5B92E1E3D4A0091A410 /* MazeBallARUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MazeBallARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85EE5992E1E3D490091A410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EE5A92E1E3D4A0091A410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EE5B32E1E3D4A0091A410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85EE5932E1E3D490091A410 = {
+			isa = PBXGroup;
+			children = (
+				D85EE59E2E1E3D490091A410 /* MazeBallAR */,
+				D85EE5AF2E1E3D4A0091A410 /* MazeBallARTests */,
+				D85EE5B92E1E3D4A0091A410 /* MazeBallARUITests */,
+				D85EE59D2E1E3D490091A410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85EE59D2E1E3D490091A410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85EE59C2E1E3D490091A410 /* MazeBallAR.app */,
+				D85EE5AC2E1E3D4A0091A410 /* MazeBallARTests.xctest */,
+				D85EE5B62E1E3D4A0091A410 /* MazeBallARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85EE59B2E1E3D490091A410 /* MazeBallAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85EE5C02E1E3D4A0091A410 /* Build configuration list for PBXNativeTarget "MazeBallAR" */;
+			buildPhases = (
+				D85EE5982E1E3D490091A410 /* Sources */,
+				D85EE5992E1E3D490091A410 /* Frameworks */,
+				D85EE59A2E1E3D490091A410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D85EE59E2E1E3D490091A410 /* MazeBallAR */,
+			);
+			name = MazeBallAR;
+			packageProductDependencies = (
+			);
+			productName = MazeBallAR;
+			productReference = D85EE59C2E1E3D490091A410 /* MazeBallAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85EE5AB2E1E3D4A0091A410 /* MazeBallARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85EE5C32E1E3D4A0091A410 /* Build configuration list for PBXNativeTarget "MazeBallARTests" */;
+			buildPhases = (
+				D85EE5A82E1E3D4A0091A410 /* Sources */,
+				D85EE5A92E1E3D4A0091A410 /* Frameworks */,
+				D85EE5AA2E1E3D4A0091A410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85EE5AE2E1E3D4A0091A410 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D85EE5AF2E1E3D4A0091A410 /* MazeBallARTests */,
+			);
+			name = MazeBallARTests;
+			packageProductDependencies = (
+			);
+			productName = MazeBallARTests;
+			productReference = D85EE5AC2E1E3D4A0091A410 /* MazeBallARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D85EE5B52E1E3D4A0091A410 /* MazeBallARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85EE5C62E1E3D4A0091A410 /* Build configuration list for PBXNativeTarget "MazeBallARUITests" */;
+			buildPhases = (
+				D85EE5B22E1E3D4A0091A410 /* Sources */,
+				D85EE5B32E1E3D4A0091A410 /* Frameworks */,
+				D85EE5B42E1E3D4A0091A410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85EE5B82E1E3D4A0091A410 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D85EE5B92E1E3D4A0091A410 /* MazeBallARUITests */,
+			);
+			name = MazeBallARUITests;
+			packageProductDependencies = (
+			);
+			productName = MazeBallARUITests;
+			productReference = D85EE5B62E1E3D4A0091A410 /* MazeBallARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85EE5942E1E3D490091A410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D85EE59B2E1E3D490091A410 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D85EE5AB2E1E3D4A0091A410 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D85EE59B2E1E3D490091A410;
+					};
+					D85EE5B52E1E3D4A0091A410 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D85EE59B2E1E3D490091A410;
+					};
+				};
+			};
+			buildConfigurationList = D85EE5972E1E3D490091A410 /* Build configuration list for PBXProject "MazeBallAR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85EE5932E1E3D490091A410;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D85EE59D2E1E3D490091A410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85EE59B2E1E3D490091A410 /* MazeBallAR */,
+				D85EE5AB2E1E3D4A0091A410 /* MazeBallARTests */,
+				D85EE5B52E1E3D4A0091A410 /* MazeBallARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85EE59A2E1E3D490091A410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EE5AA2E1E3D4A0091A410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EE5B42E1E3D4A0091A410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85EE5982E1E3D490091A410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EE5A82E1E3D4A0091A410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EE5B22E1E3D4A0091A410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85EE5AE2E1E3D4A0091A410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85EE59B2E1E3D490091A410 /* MazeBallAR */;
+			targetProxy = D85EE5AD2E1E3D4A0091A410 /* PBXContainerItemProxy */;
+		};
+		D85EE5B82E1E3D4A0091A410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85EE59B2E1E3D490091A410 /* MazeBallAR */;
+			targetProxy = D85EE5B72E1E3D4A0091A410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D85EE5BE2E1E3D4A0091A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85EE5BF2E1E3D4A0091A410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85EE5C12E1E3D4A0091A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MazeBallAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 783M3UH947;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.MazeBallAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85EE5C22E1E3D4A0091A410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MazeBallAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 783M3UH947;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.MazeBallAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D85EE5C42E1E3D4A0091A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 783M3UH947;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.MazeBallARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazeBallAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MazeBallAR";
+			};
+			name = Debug;
+		};
+		D85EE5C52E1E3D4A0091A410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 783M3UH947;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.MazeBallARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazeBallAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MazeBallAR";
+			};
+			name = Release;
+		};
+		D85EE5C72E1E3D4A0091A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 783M3UH947;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.MazeBallARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MazeBallAR;
+			};
+			name = Debug;
+		};
+		D85EE5C82E1E3D4A0091A410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 783M3UH947;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.MazeBallARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MazeBallAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85EE5972E1E3D490091A410 /* Build configuration list for PBXProject "MazeBallAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EE5BE2E1E3D4A0091A410 /* Debug */,
+				D85EE5BF2E1E3D4A0091A410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85EE5C02E1E3D4A0091A410 /* Build configuration list for PBXNativeTarget "MazeBallAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EE5C12E1E3D4A0091A410 /* Debug */,
+				D85EE5C22E1E3D4A0091A410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85EE5C32E1E3D4A0091A410 /* Build configuration list for PBXNativeTarget "MazeBallARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EE5C42E1E3D4A0091A410 /* Debug */,
+				D85EE5C52E1E3D4A0091A410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85EE5C62E1E3D4A0091A410 /* Build configuration list for PBXNativeTarget "MazeBallARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EE5C72E1E3D4A0091A410 /* Debug */,
+				D85EE5C82E1E3D4A0091A410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85EE5942E1E3D490091A410 /* Project object */;
+}
