@@ -22,3 +22,4 @@
 
 "ball_reset" = "Reset the ball";
 "recreate_maze" = "Recreate";
+"finish" = "Successful"
