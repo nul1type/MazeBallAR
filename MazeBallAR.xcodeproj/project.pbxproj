@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8425E8F2E23BD7A00112C5F /* altstore_source.json in Resources */ = {isa = PBXBuildFile; fileRef = D8425E8E2E23BD7A00112C5F /* altstore_source.json */; };
 		D85EE6622E238ABC0091A410 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = D85EE6612E238ABC0091A410 /* Logging */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8425E8E2E23BD7A00112C5F /* altstore_source.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = altstore_source.json; sourceTree = "<group>"; };
 		D85EE59C2E1E3D490091A410 /* MazeBallAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeBallAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85EE5AC2E1E3D4A0091A410 /* MazeBallARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeBallARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85EE5B62E1E3D4A0091A410 /* MazeBallARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeBallARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 		D85EE5932E1E3D490091A410 = {
 			isa = PBXGroup;
 			children = (
+				D8425E8E2E23BD7A00112C5F /* altstore_source.json */,
 				D85EE59E2E1E3D490091A410 /* MazeBallAR */,
 				D85EE5AF2E1E3D4A0091A410 /* MazeBallARTests */,
 				D85EE5B92E1E3D4A0091A410 /* MazeBallARUITests */,
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8425E8F2E23BD7A00112C5F /* altstore_source.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
