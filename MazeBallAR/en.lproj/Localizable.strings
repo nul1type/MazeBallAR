@@ -1,0 +1,24 @@
+//
+// Localizable.strings
+// MazeBallAR
+//
+// Created by Anatoly Alexandrovich on 13.07.2025.
+//
+
+"game_start" = "Start game";
+"settings" = "Settings";
+"instruction_toggle" = "Show instruction";
+"clear_stars" = "Reset stars";
+"settings_close" = "Close";
+
+"ar_detection_search" = "Rotate the camera to find surfaces";
+"ar_tap" = "Tap a surface";
+"instruction_title" = "How to play?";
+"instruction_type1" = "Move around the maze";
+"instruction_type2" = "The maze tilts away from you";
+"instruction_type3" = "The ball rolls in the direction of the slope";
+"instruction_check_box" = "Don't show again";
+"instruction_close" = "Got it!";
+
+"ball_reset" = "Reset the ball";
+"recreate_maze" = "Recreate";

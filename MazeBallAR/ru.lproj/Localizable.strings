@@ -1,0 +1,24 @@
+//
+//  Localizable.strings
+//  MazeBallAR
+//
+//  Created by Анатолий Александрович on 13.07.2025.
+//
+
+"game_start" = "Начать игру";
+"settings" = "Настройки";
+"instruction_toggle" = "Показывать инструкцию";
+"clear_stars" = "Сбросить звёзды";
+"settings_close" = "Закрыть";
+
+"ar_detection_search" = "Покрутите камеру, чтобы найти поверхности";
+"ar_tap" = "Нажмите на поверхность";
+"instruction_title" = "Как играть?";
+"instruction_type1" = "Двигайтесь вокруг лабиринта";
+"instruction_type2" = "Лабиринт наклоняется в противоположную от вас сторону";
+"instruction_type3" = "Шарик катится в направлении наклона";
+"instruction_check_box" = "Больше не показывать";
+"instruction_close" = "Всё понятно!";
+
+"ball_reset" = "Сброс шарика";
+"recreate_maze" = "Пересоздать";
