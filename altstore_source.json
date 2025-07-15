@@ -3,8 +3,6 @@
   "subtitle": "A source for all of my apps",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
-  "website": "",
-  "patreonURL": "",
   "tintColor": "#6156e2",
   "featuredApps": [
     "ru.MazeBallAR"
@@ -13,14 +11,12 @@
     {
       "name": "MazeBallAR",
       "bundleIdentifier": "ru.MazeBallAR",
-      "marketplaceID": "",
       "developerName": "Example Developer",
       "subtitle": "AR game",
       "localizedDescription": "RealityKit game. Roll the ball in the maze to the finish line and collect the stars. The maze reacts to your location, move in space and tilt the maze",
       "iconURL": "https://github.com/nul1type/MazeBallAR/blob/main/MazeBallAR/Assets.xcassets/AppIcon.appiconset/ComfyUI_00504_.png",
       "tintColor": "#28dce4",
       "category": "other",
-      "screenshots": [],
       "versions": [
         {
             "version": "1.0",
@@ -31,13 +27,10 @@
         }
         ],
       "appPermissions": {
-        "entitlements": [],
         "privacy": {
-          "NSCameraUsageDescription": ""
+          "NSCameraUsageDescription": "We use camera for AR"
         }
-      },
-      "patreon": {}
+      }
     }
-  ],
-  "news": []
+  ]
 }
